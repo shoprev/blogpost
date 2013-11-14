@@ -1,7 +1,8 @@
 require "atomutil"
+require "blogpost/version"
 require "blogpost/hatenablog"
 require "blogpost/hatenadiary"
-require "blogpost/version"
+require "blogpost/athera"
 
 module Blogpost
   

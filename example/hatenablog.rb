@@ -1,12 +1,11 @@
-# coding: utf-8
 require "blogpost"
 
-# Blogpost::Hatenablog.post({:user => "rakutenbook", :pass => "lpzunjlfqm", :domain => "rakutenbook.hatenablog.com", :title => "title" , :content => "content"})
+# # hatena blog
+# Blogpost.configure do |options|
+#   options[:user]   = 'user id'
+#   options[:pass]   = "api key"
+#   options[:domain] = "example.hatenablog.com"
+# end
+# Blogpost::Hatenablog.post({:title => "title" , :content => "content"})
 
-
-Blogpost.configure do |options|
-  options[:user]   = 'aaa'
-  options[:pass]   = "aaa"
-  options[:domain] = "rakutenbook.hatenablog.com"
-end
-Blogpost::Hatenablog.post({:user => "rakutenbook",:pass => "lpzunjlfqm",:title => "たいとる" , :content => "こんてんつ"})
+Blogpost::Athera.post({:user => "rakutenbook", :pass => "7CCPbiNgGm7LkVvO", :title => "title" , :content => "content"})

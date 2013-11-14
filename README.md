@@ -1,6 +1,6 @@
 # Blogpost
 
-Ruby Blog Post (hatena)
+Ruby Blog Post (hatena,athera,fc2,livedoor)
 
 ## Installation
 
@@ -22,9 +22,13 @@ Or install it yourself as:
 require "blogpost"
 
 # hatena blog
-Blogpost::Hatenablog.post({:user => "user id", :pass => "api key" :domain => "example.hatenablog.com", :title => "title" , :content => "content"})
-# fc2 blog
-Blogpost::fc2.post({})
+Blogpost::Hatenablog.post({:user => "user id", :pass => "api key", :domain => "example.hatenablog.com", :title => "title", :content => "content"})
+# hatena diary
+Blogpost::Hatenadiary.post({:user => "user id", :pass => "password", :title => "title" , :content => "content"})
+# athera
+Blogpost::Athera.post({:user => "xml-rpc id", :pass => "xml-rpc pass", :title => "title" , :content => "content"})
+# fc2
+Blogpost::Fc2.post({})
 ```
 
 ## Contributing
