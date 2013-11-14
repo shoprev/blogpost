@@ -27,6 +27,8 @@ Blogpost::Hatenablog.post({:user => "user id", :pass => "api key", :domain => "e
 Blogpost::Hatenadiary.post({:user => "user id", :pass => "password", :title => "title" , :content => "content"})
 # athera
 Blogpost::Athera.post({:user => "xml-rpc id", :pass => "xml-rpc pass", :title => "title" , :content => "content"})
+# maruta
+Blogpost::Maruta.post({:user => "user id", :pass => "password", :title => "title" , :content => "content"})
 # fc2
 Blogpost::Fc2.post({})
 ```

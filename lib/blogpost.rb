@@ -5,6 +5,15 @@ require "blogpost/hatenablog"
 require "blogpost/hatenadiary"
 require "blogpost/athera"
 require "blogpost/maruta"
+require "blogpost/ninja"
+
+module XMLRPC::ParseContentType
+  def parse_content_type(str)
+    a, *b = str.split(";")
+    a = "text/xml" if a == "application/xml"
+    return a.strip.downcase, *b
+  end
+end
 
 module Blogpost
   
