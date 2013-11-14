@@ -1,5 +1,6 @@
 require "atomutil"
 require "blogpost/hatenablog"
+require "blogpost/hatenadiary"
 require "blogpost/version"
 
 module Blogpost
@@ -15,4 +16,5 @@ module Blogpost
     yield @options
   end
 
+  module_function :options, :configure
 end
