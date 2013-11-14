@@ -1,8 +1,10 @@
 require "atomutil"
+require "xmlrpc/client"
 require "blogpost/version"
 require "blogpost/hatenablog"
 require "blogpost/hatenadiary"
 require "blogpost/athera"
+require "blogpost/maruta"
 
 module Blogpost
   
