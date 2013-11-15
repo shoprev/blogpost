@@ -7,6 +7,7 @@ require "blogpost/athera"
 require "blogpost/maruta"
 require "blogpost/wordpress"
 require "blogpost/fc2"
+require "blogpost/livedoor"
 
 module XMLRPC::ParseContentType
   def parse_content_type(str)
