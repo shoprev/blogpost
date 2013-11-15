@@ -3,7 +3,7 @@ module Blogpost
     def self.post(opts={})
       opts = Blogpost.options.merge(opts)
       host="http://blog.fc2.com/xmlrpc.php"
-      XMLRPC::Client.new2(host).call("metaWeblog.newPost", "0", opts[:user], opts[:pass],
+      XMLRPC::Client.new2(host).call("metaWeblog.newPost", "", opts[:user], opts[:pass],
         {"title" => opts[:title],"description" => opts[:content]}, true)
     end
   end
