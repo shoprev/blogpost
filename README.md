@@ -30,7 +30,7 @@ Blogpost::Athera.post({:user => "xml-rpc id", :pass => "xml-rpc pass", :title =>
 # maruta
 Blogpost::Maruta.post({:user => "user id", :pass => "password", :title => "title" , :content => "content"})
 # wordpress
-Blogpost::Wordpress.post({})
+Blogpost::Wordpress.post({:domain => "example",:user =>"user id", :pass => "password", :title => "title" , :content => "content"})
 # fc2
 Blogpost::Fc2.post({})
 ```

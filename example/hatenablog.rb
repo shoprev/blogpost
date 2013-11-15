@@ -10,4 +10,5 @@ require "blogpost"
 
 # Blogpost::Athera.post({:user => "rakutenbook", :pass => "7CCPbiNgGm7LkVvO", :title => "title" , :content => "content"})
 # Blogpost::Maruta.post({:user => "rakutenbook", :pass => "07rakuten", :title => "title" , :content => "content"})
-Blogpost::Wordpress.post({:user => "rakutenbook", :pass => "07rakuten", :title => "title" , :content => "content"})
+# Blogpost::Wordpress.post({:domain => "rakutentravelall",:user =>"cddvdranking", :pass => "07ranking", :title => "title" , :content => "content"})
+Blogpost::Fc2.post({:user =>"rakutenbook", :pass => "07rakuten", :title => "title" , :content => "content"})
