@@ -14,4 +14,5 @@ require "blogpost"
 # Blogpost::Fc2.post({:user =>"rakutenbook1", :pass => "07book", :title => "title" , :content => "content"})
 # Blogpost::Livedoor.post({:user =>"rakutenbook11", :pass => "zxLNGg25Lv", :title => "title" , :content => "content"})
 #Blogpost::Goo.post({:user =>"rakutenbook", :pass => "07rakuten", :title => "title" , :content => "content"})
-Blogpost::Seesaa.post({:user =>"rakutenbook", :pass => "07rakuten", :title => "title" , :content => "content"})
+#Blogpost::Seesaa.post({:user =>"rakutenbook@shoprev.com", :pass => "07rakuten", :title => "title" , :content => "content"})
+Blogpost::Seesaa.post({:user =>"rakutenbook@shoprev.com", :pass => "07rakuten", :title => "title" , :content => "content"})
