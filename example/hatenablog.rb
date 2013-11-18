@@ -15,4 +15,5 @@ require "blogpost"
 # Blogpost::Livedoor.post({:user =>"rakutenbook11", :pass => "zxLNGg25Lv", :title => "title" , :content => "content"})
 #Blogpost::Goo.post({:user =>"rakutenbook", :pass => "07rakuten", :title => "title" , :content => "content"})
 #Blogpost::Seesaa.post({:user =>"rakutenbook@shoprev.com", :pass => "07rakuten", :title => "title" , :content => "content"})
-Blogpost::Webry.post({:user =>"rakutenbook@shoprev.com", :pass => "07rakuten", :title => "title" , :content => "content"})
+# Blogpost::Webry.post({:user =>"rakutenbook@shoprev.com", :pass => "07rakuten", :title => "title" , :content => "content"})
+Blogpost::Jugem.post({:domain => "rakuten", :user =>"rakutenbook", :pass => "07rakuten", :title => "title" , :content => "content"})
