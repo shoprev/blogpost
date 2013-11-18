@@ -11,6 +11,7 @@ require "blogpost/livedoor"
 require "blogpost/goo"
 require "blogpost/seesaa"
 require "blogpost/webry"
+require "blogpost/jugem"
 
 module XMLRPC::ParseContentType
   def parse_content_type(str)
