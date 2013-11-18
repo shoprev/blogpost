@@ -15,7 +15,6 @@ require "blogpost/jugem"
 require "blogpost/cocolog"
 require "blogpost/blogg"
 
-
 module XMLRPC::ParseContentType
   def parse_content_type(str)
     a, *b = str.split(";")

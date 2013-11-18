@@ -17,5 +17,5 @@ require "blogpost"
 # Blogpost::Seesaa.post({:user =>"rakutenbook@shoprev.com", :pass => "07rakuten", :title => "title" , :content => "content"})
 # Blogpost::Webry.post({:user =>"rakutenbook@shoprev.com", :pass => "07rakuten", :title => "title" , :content => "content"})
 # Blogpost::Jugem.post({:domain => "rakutenbook", :user =>"rakutenbook", :pass => "07rakuten", :title => "title" , :content => "content"})
-# Blogpost::Cocolog.post({:blogid => "1973108", :user =>"rakutenbook", :pass => "07rakuten", :title => "title" , :content => "content"})
-Blogpost::blogg.post({:user =>"rakutenbook1", :pass => "3Vig4cSDGtSNPsZO", :title => "title" , :content => "content"})
+Blogpost::Cocolog.post({:blogid => "1973108", :user =>"rakutenbook", :pass => "07rakuten", :title => "title" , :content => "content"})
+# Blogpost::Blogg.post({:user =>"rakutenbook1", :pass => "3Vig4cSDGtSNPsZO", :title => "title" , :content => "content"})

@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Blogpost::VERSION
   spec.authors       = ["shoprev"]
   spec.email         = ["admin@shoprev.net"]
-  spec.description   = %q{Ruby Blog Post (hatena)}
-  spec.summary       = %q{Ruby Blog Post (hatena)}
+  spec.description   = %q{Ruby Blog Post (hatena,athera,269g,cocolog,fc2,goo,jugem,livedoor,maruta,seesaa,webry,wordpress)}
+  spec.summary       = %q{Ruby Blog Post (hatena,athera,269g,cocolog,fc2,goo,jugem,livedoor,maruta,seesaa,webry,wordpress)}
   spec.homepage      = "https://github.com/shoprev/blogpost"
   spec.license       = "MIT"
 
