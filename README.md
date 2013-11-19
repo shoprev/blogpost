@@ -1,7 +1,7 @@
 # Blogpost
 
 [![Gem Version](https://badge.fury.io/rb/blogpost.png)](http://badge.fury.io/rb/blogpost)
-Ruby Blog Post (hatena,athera,269g,cocolog,fc2,goo,jugem,livedoor,maruta,seesaa,webry,wordpress,gmail,sendmail)
+Ruby Blog Post (hatena,athera,269g,cocolog,fc2,goo,jugem,livedoor,maruta,seesaa,webry,wordpress,gmail,sendmail,sonet)
 
 ## Installation
 
@@ -47,10 +47,10 @@ Blogpost::Livedoor.post({:user =>"user id", :pass => "api key",
 Blogpost::Goo.post({:user =>"user id", :pass => "password",
   :title => "title" , :content => "content"})
 # seesaa
-Blogpost::Seesaa.post({:user =>"email", :pass => "password",
+Blogpost::Seesaa.post({:user =>"your@example.com", :pass => "password",
   :title => "title" , :content => "content"})
 # webry
-Blogpost::Webry.post({:user =>"email", :pass => "passowrd",
+Blogpost::Webry.post({:user =>"your@example.com", :pass => "passowrd",
   :title => "title" , :content => "content"})
 # jugem
 Blogpost::Jugem.post({:domain => "example", :user =>"user id",
@@ -63,10 +63,13 @@ Blogpost::Blogg.post({:user =>"api id", :pass => "api password",
   :title => "title" , :content => "content"})
 # gmail
 Blogpost::Gmail.post({:address =>"to@example.com",
-  :user =>"from@example.com", :pass => "password",
+  :user =>"your@example.com", :pass => "password",
   :title => "title" , :content => "content"})
 # sendmail
 Blogpost::Sendmail.post({:address =>"to@example.com",
+  :title => "title" , :content => "content"})
+# sonet
+Blogpost::Sonet.post({:user =>"xml-rpc id", :pass => "xml-rpc pass",
   :title => "title" , :content => "content"})
 ```
 

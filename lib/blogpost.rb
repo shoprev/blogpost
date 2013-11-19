@@ -18,6 +18,7 @@ require "blogpost/cocolog"
 require "blogpost/blogg"
 require "blogpost/gmail"
 require "blogpost/sendmail"
+require "blogpost/sonet"
 
 module XMLRPC::ParseContentType
   def parse_content_type(str)
