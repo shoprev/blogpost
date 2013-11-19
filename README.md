@@ -1,7 +1,7 @@
 # Blogpost
 
 [![Gem Version](https://badge.fury.io/rb/blogpost.png)](http://badge.fury.io/rb/blogpost)
-Ruby Blog Post (hatena,athera,269g,cocolog,fc2,goo,jugem,livedoor,maruta,seesaa,webry,wordpress)
+Ruby Blog Post (hatena,athera,269g,cocolog,fc2,goo,jugem,livedoor,maruta,seesaa,webry,wordpress,gmail,sendmail)
 
 ## Installation
 
@@ -41,7 +41,7 @@ Blogpost::Wordpress.post({:domain => "example",:user =>"user id",
 Blogpost::Fc2.post({:user =>"user id", :pass => "password",
   :title => "title" , :content => "content"})
 # livedoor
-Blogpost::Livedoor.post({:user =>"rakutenbook11", :pass => "api key",
+Blogpost::Livedoor.post({:user =>"user id", :pass => "api key",
   :title => "title" , :content => "content"})
 # goo
 Blogpost::Goo.post({:user =>"user id", :pass => "password",
@@ -60,6 +60,13 @@ Blogpost::Cocolog.post({:blogid => "blog id", :user =>"user id",
   :pass => "password", :title => "title" , :content => "content"})
 # 269g
 Blogpost::Blogg.post({:user =>"api id", :pass => "api password",
+  :title => "title" , :content => "content"})
+# gmail
+Blogpost::Gmail.post({:address =>"to@example.com",
+  :user =>"from@example.com", :pass => "password",
+  :title => "title" , :content => "content"})
+# sendmail
+Blogpost::Sendmail.post({:address =>"to@example.com",
   :title => "title" , :content => "content"})
 ```
 

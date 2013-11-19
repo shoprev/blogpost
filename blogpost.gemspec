@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Blogpost::VERSION
   spec.authors       = ["shoprev"]
   spec.email         = ["admin@shoprev.net"]
-  spec.description   = %q{Ruby Blog Post (hatena,athera,269g,cocolog,fc2,goo,jugem,livedoor,maruta,seesaa,webry,wordpress)}
-  spec.summary       = %q{Ruby Blog Post (hatena,athera,269g,cocolog,fc2,goo,jugem,livedoor,maruta,seesaa,webry,wordpress)}
+  spec.description   = %q{Ruby Blog Post (hatena,athera,269g,cocolog,fc2,goo,jugem,livedoor,maruta,seesaa,webry,wordpress,gmail,sendmail)}
+  spec.summary       = %q{Ruby Blog Post (hatena,athera,269g,cocolog,fc2,goo,jugem,livedoor,maruta,seesaa,webry,wordpress,gmail,sendmail)}
   spec.homepage      = "https://github.com/shoprev/blogpost"
   spec.license       = "MIT"
 
@@ -19,6 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency "atomutil"
+  spec.add_runtime_dependency "mail"
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
 end

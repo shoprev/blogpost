@@ -1,4 +1,6 @@
 require "atomutil"
+require "mail"
+require "net/smtp"
 require "xmlrpc/client"
 require "blogpost/version"
 require "blogpost/hatenablog"
@@ -14,6 +16,8 @@ require "blogpost/webry"
 require "blogpost/jugem"
 require "blogpost/cocolog"
 require "blogpost/blogg"
+require "blogpost/gmail"
+require "blogpost/sendmail"
 
 module XMLRPC::ParseContentType
   def parse_content_type(str)
