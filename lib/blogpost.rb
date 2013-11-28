@@ -1,6 +1,5 @@
 require "atomutil"
 require "mail"
-require "net/smtp"
 require "xmlrpc/client"
 require "blogpost/version"
 require "blogpost/hatenablog"
