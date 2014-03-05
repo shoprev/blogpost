@@ -19,6 +19,7 @@ module Blogpost
     # :user =>
     # :pass =>
     # :image_path or :image_url =>
+    # :multiple => # 1アカウントでの複数ブログ対応
     # }
     def self.image_post(opts={})
       opts   = Blogpost.options.merge(opts)
@@ -35,7 +36,9 @@ module Blogpost
         filename = tempfile.path
       end
 
-      service        = client.get_service "https://livedoor.blogcms.jp/atompub/#{opts[:user]}"
+      # 複数ブログ対応
+      end_point_url = "https://livedoor.blogcms.jp/atompub/#{opts[:multiple].nil? ? opts[:user] : opts[:multiple]}"
+      service        = client.get_service end_point_url
       collection_uri = service.workspace.collections[1].href
 
       # 画像リソースの転送。
